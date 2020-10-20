@@ -1,0 +1,169 @@
+﻿<div class="preloader" id="preloader">
+    <div class="loader loader-1">
+        <div class="loader-outter"></div>
+        <div class="loader-inner"></div>
+    </div>
+</div>
+<div class="dashboard-header">
+    <nav class="navbar navbar-expand-lg bg-white">
+        <a class="navbar-brand mobile-none" href="/gameregio">
+            <img style="transition: .5s all;width: 36px;" src="~/images/regioLogos/sitelogo.png">
+            <img id="gameregio-logo-text" src="~/images/regioLogos/sitename-dark.png">
+        </a>
+        <a class="nav-link menu-match-button mobile-block desktop-none" id="duel-create" data-toggle="modal"
+           data-target="#exampleModal">Düello Oluştur</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto navbar-left-top">
+                <li class="nav-item"><a class="nav-link" href="/gameregio">Anasayfa</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="/gameregio/duels">Düellolar</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="/gameregio/tournaments">Turnuvalar</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="/gameregio/contact">İletişim</a></li>
+
+                <li class="nav-item menu-match-button mobile-none">
+                    <a class="nav-link" id="duel-create"
+                       data-toggle="modal" data-target="#exampleModal">Düello Oluştur</a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav ml-auto navbar-right-top">
+                <li class="nav-item dropdown notify">
+                    <a class="nav-link nav-icons" href="#"
+                       id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false"><i class="fas fa-fw fa-bell"></i> <span class="indicator"></span></a>
+
+                </li>
+                <li class="nav-item dropdown wallet">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="header-balance">500 GR</span> <i class="fas fa-coins"></i>
+                    </a>
+
+                </li>
+                <li class="nav-item dropdown nav-user">
+                    <a class="nav-link nav-user-img" href="#"
+                       id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false">
+                        <img src="https://img.icons8.com/dusk/100/000000/user-female-circle.png"
+                             alt="" class="user-avatar-md rounded-circle">
+                    </a>
+
+                </li>
+            </ul>
+            <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+                <li>
+                    <div class="notification-header">
+                        <div class="notification-title"> Bildirimler</div>
+                        <div class="read-notifications"> <a href="#">Tümünü okundu işaretle</a></div>
+                    </div>
+                    <div class="notification-list">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action active">
+                                <div class="notification-info">
+                                    <div class="notification-list-user-img">
+                                        <img src="https://img.icons8.com/office/100/000000/administrator-female.png"
+                                             alt="" class="user-avatar-md rounded-circle">
+                                    </div>
+                                    <div class="notification-list-user-block">
+                                        <span class="notification-list-user-name">Jeremy Hukonah</span>accepted
+                                        your invitation to join the team. <div class="notification-date">
+                                            2 min
+                                            ago
+                                        </div>
+                                    </div>
+                                </div>
+                            </a> <a href="#" class="list-group-item list-group-item-action">
+                                <div class="notification-info">
+                                    <div class="notification-list-user-img">
+                                        <img src="https://img.icons8.com/color/48/000000/administrator-female.png" alt=""
+                                             class="user-avatar-md rounded-circle">
+                                    </div>
+                                    <div class="notification-list-user-block">
+                                        <span class="notification-list-user-name">John Sammy</span>updated the
+                                        email address <div class="notification-date">2 days ago</div>
+                                    </div>
+                                </div>
+                            </a> <a href="#" class="list-group-item list-group-item-action">
+                                <div class="notification-info">
+                                    <div class="notification-list-user-img">
+                                        <img src="https://img.icons8.com/color/100/000000/name.png" alt=""
+                                             class="user-avatar-md rounded-circle">
+                                    </div>
+                                    <div class="notification-list-user-block">
+                                        <span class="notification-list-user-name">Kioh Samso</span> is watching
+                                        your main repository <div class="notification-date">2 min ago</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="https://www.applefirmwares.com/gameregio/notifications/">
+                        <div class="list-footer"> Tümünü Görüntüle</div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="dropdown-menu dropdown-menu-right wallet-dropdown">
+                <div class="wallet-header">
+                    <div class="wallet-title"> Cüzdan</div>
+                    <div class="add-iban"> <a href="/gameregio/profile/wallet">IBAN'ını Ekle</a></div>
+                </div>
+
+
+                <li class="wallet-list">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#" class="wallet-item">
+                                <img src="https://www.flaticon.com/svg/static/icons/svg/845/845665.svg" alt="">
+                                <span>50 GR</span>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#" class="wallet-item">
+                                <img src="https://www.flaticon.com/svg/static/icons/svg/3530/3530608.svg" alt="">
+                                <span>5 TL</span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#" class="header-wallet-balance add">
+                                <span>Bakiye Yükle</span>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#" class="header-wallet-balance withdraw">
+                                <span>
+                                    Bakiye
+                                    Çek
+                                </span>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+                <li>
+                    <a href="/gameregio/profile/wallet">
+                        <div class="conntection-footer">Cüzdanı Görüntüle</div>
+                    </a>
+                </li>
+            </ul>
+            <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                <div class="nav-user-info">
+                    <h5 class="mb-0 text-white nav-user-name">Umut Can Alparslan</h5> <span class="status"></span><span class="ml-2">Aktif</span>
+                </div> <a class="dropdown-item" href="/gameregio/profile"><i class="fas fa-user mr-2"></i>Profil</a>
+                <a class="dropdown-item" href="#"><i class="fas fa-khanda mr-2"></i>Düellolarım</a>
+                <a class="dropdown-item" href="/gameregio/profile/settings"><i class="fas fa-cog mr-2"></i>Ayarlar</a>
+                <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i>Çıkış Yap</a>
+            </div>
+        </div>
+    </nav>
+</div>

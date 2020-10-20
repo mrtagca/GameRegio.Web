@@ -1,0 +1,143 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\bootstrap-grid.css" />
+    <Content Remove="wwwroot\css\bootstrap-grid.css.map" />
+    <Content Remove="wwwroot\css\bootstrap-grid.min.css" />
+    <Content Remove="wwwroot\css\bootstrap-grid.min.css.map" />
+    <Content Remove="wwwroot\css\bootstrap-reboot.css" />
+    <Content Remove="wwwroot\css\bootstrap-reboot.css.map" />
+    <Content Remove="wwwroot\css\bootstrap-reboot.min.css" />
+    <Content Remove="wwwroot\css\bootstrap-reboot.min.css.map" />
+    <Content Remove="wwwroot\css\bootstrap.css" />
+    <Content Remove="wwwroot\css\bootstrap.css.map" />
+    <Content Remove="wwwroot\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\css\bootstrap.min.css.map" />
+    <Content Remove="wwwroot\css\demo.css" />
+    <Content Remove="wwwroot\css\header.css" />
+    <Content Remove="wwwroot\css\login.css" />
+    <Content Remove="wwwroot\css\material-bootstrap-wizard.css" />
+    <Content Remove="wwwroot\css\style.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\bootstrap-grid.css" />
+    <None Include="wwwroot\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\css\bootstrap.css" />
+    <None Include="wwwroot\css\bootstrap.css.map" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\css\demo.css" />
+    <None Include="wwwroot\css\header.css" />
+    <None Include="wwwroot\css\login.css" />
+    <None Include="wwwroot\css\material-bootstrap-wizard.css" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\images\banners\codmobile.jpg" />
+    <None Include="wwwroot\images\banners\codwarzone.jpg" />
+    <None Include="wwwroot\images\banners\csgo.jpg" />
+    <None Include="wwwroot\images\banners\fifa20.jpg" />
+    <None Include="wwwroot\images\banners\fifamobile.jpg" />
+    <None Include="wwwroot\images\banners\fortnite.jpg" />
+    <None Include="wwwroot\images\banners\hearthstone.jpg" />
+    <None Include="wwwroot\images\banners\kafatopu2.jpg" />
+    <None Include="wwwroot\images\banners\moba.jpg" />
+    <None Include="wwwroot\images\banners\pubg.jpg" />
+    <None Include="wwwroot\images\banners\pubglite.jpg" />
+    <None Include="wwwroot\images\banners\pubgmobile.jpg" />
+    <None Include="wwwroot\images\banners\rocketleague.jpg" />
+    <None Include="wwwroot\images\banners\valorant.jpg" />
+    <None Include="wwwroot\images\banners\zula.jpg" />
+    <None Include="wwwroot\images\csgo-slider.jpg" />
+    <None Include="wwwroot\images\fifa20-slider.jpg" />
+    <None Include="wwwroot\images\list-style-marker.png" />
+    <None Include="wwwroot\images\logos\codmobile.png" />
+    <None Include="wwwroot\images\logos\codwarzone.png" />
+    <None Include="wwwroot\images\logos\csgo.png" />
+    <None Include="wwwroot\images\logos\fifa20.png" />
+    <None Include="wwwroot\images\logos\fifamobile.png" />
+    <None Include="wwwroot\images\logos\fortnite.png" />
+    <None Include="wwwroot\images\logos\hearthstone.png" />
+    <None Include="wwwroot\images\logos\kafatopu2.png" />
+    <None Include="wwwroot\images\logos\moba.png" />
+    <None Include="wwwroot\images\logos\pubg.png" />
+    <None Include="wwwroot\images\logos\pubglite.png" />
+    <None Include="wwwroot\images\logos\pubgmobile.png" />
+    <None Include="wwwroot\images\logos\rocketleague.png" />
+    <None Include="wwwroot\images\logos\valorant.png" />
+    <None Include="wwwroot\images\logos\zula.png" />
+    <None Include="wwwroot\images\mobile_logo.png" />
+    <None Include="wwwroot\images\pc_logo.png" />
+    <None Include="wwwroot\images\ps_logo.png" />
+    <None Include="wwwroot\images\pubg-mobile-slider.jpg" />
+    <None Include="wwwroot\images\regioLogos\logo-min.jpg" />
+    <None Include="wwwroot\images\regioLogos\logo-min.png" />
+    <None Include="wwwroot\images\regioLogos\logo.jpg" />
+    <None Include="wwwroot\images\regioLogos\logo.png" />
+    <None Include="wwwroot\images\regioLogos\sitelogo.png" />
+    <None Include="wwwroot\images\regioLogos\sitename-dark.png" />
+    <None Include="wwwroot\images\regioLogos\sitename-light.png" />
+    <None Include="wwwroot\images\valorant-slider.jpg" />
+    <None Include="wwwroot\images\wrapper-bg.jpg" />
+    <None Include="wwwroot\images\xbox_logo.png" />
+    <None Include="wwwroot\images\zula-slider.jpg" />
+    <None Include="wwwroot\script\bootstrap.bundle.js" />
+    <None Include="wwwroot\script\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\script\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\script\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\script\bootstrap.js" />
+    <None Include="wwwroot\script\bootstrap.js.map" />
+    <None Include="wwwroot\script\bootstrap.min.js" />
+    <None Include="wwwroot\script\bootstrap.min.js.map" />
+    <None Include="wwwroot\script\jquery-3.5.1.min.js" />
+    <None Include="wwwroot\script\jquery.bootstrap.js" />
+    <None Include="wwwroot\script\jquery.mixitup.min.js" />
+    <None Include="wwwroot\script\jquery.validate.min.js" />
+    <None Include="wwwroot\script\login.js" />
+    <None Include="wwwroot\script\material-bootstrap-wizard.js" />
+    <None Include="wwwroot\script\script.js" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\mixins\_buttons.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\mixins\_inputs.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\mixins\_vendor-prefixes.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_buttons.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_card.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_checkboxes.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_colors.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_footers.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_inputs-size.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_inputs.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_misc.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_mixins.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_navs-pagination.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_radios.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_responsive.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_ripples.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_shadows.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_tooltips.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_typography.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_variables.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_variables_bootstrap.scss" />
+    <None Include="wwwroot\scss\material-bootstrap-wizard\_wizard-card.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.ViewCompilation" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,215 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_layoutHome.cshtml";
+}
+
+    <div class="cont">
+        <div class="slider"></div>
+        <ul class="slider-nav"> </ul>
+        <div data-target='right' class="side-slider-nav side-slider-nav--right"></div>
+        <div data-target='left' class="side-slider-nav side-slider-nav--left"></div>
+    </div>
+   
+<div class="container mt-5">
+    <div class="row duel-search gameregio-game-search style1"
+         style="background-image:url('/images/banners/pubg.jpg');">
+        <div class="col-md-12">
+            <h3>Maç Ara</h3>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Platform</label>
+                        <select name="platform" class="form-control" required>
+                            <option disabled="" selected=""></option>
+                            <option value="PC"> PC </option>
+                            <option value="Mobil"> Mobil </option>
+                            <option value="PlayStation"> PlayStation </option>
+                            <option value="Xbox"> Xbox </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Oyun</label>
+                        <select name="game" class="form-control" required>
+                            <option disabled="" selected=""></option>
+                            <option>FIFA</option>
+                            <option>PUBG Mobile </option>
+                            <option>CoD Warzone</option>
+                            <option>Hearthstone</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group label-floating" required>
+                        <label class="control-label">Mod</label>
+                        <select name="mode" class="form-control" required>
+                            <option disabled="" selected=""></option>
+                            <option>1v1 Birinci Şahıs</option>
+                            <option>1v1 Üçüncü Şahıs </option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group label-floating" required>
+                        <label class="control-label">Giriş Ücreti</label>
+                        <select name="mode" class="form-control" required>
+                            <option disabled="" selected=""></option>
+                            <option value="0">0</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Kullanıcı Adı</label>
+                        <input name="username" type="text" class="form-control" id="exampleInputEmail1" required>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type='button' class='matchSearch-submit matchSearch-button' name='search'
+                               value='Düello Bul' />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row games" data-wow-duration="1000ms" data-wow-delay="0.5s" id="gamearea">
+        <h3>Oyunlar</h3>
+        <div class="row no-gutters">
+            <div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">FIFA 20</div>
+                        <img src="~/images/banners/fifa20.jpg" alt="">
+                        <div class="mybtn2">Playstation</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">FIFA Mobile</div>
+                        <img src="~/images/banners/fifamobile.jpg" alt="">
+                        <div class="mybtn2">Mobile</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">PUBG</div>
+                        <img src="~/images/banners/pubg.jpg" alt="">
+                        <div class="mybtn2">PC</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">PUBG Mobile</div>
+                        <img src="~/images/banners/pubgmobile.jpg" alt="">
+                        <div class="mybtn2">Mobile</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">PUBG Lite</div>
+                        <img src="~/images/banners/pubglite.jpg" alt="">
+                        <div class="mybtn2">PC</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">Fortnite</div>
+                        <img src="~/images/banners/fortnite.jpg" alt="">
+                        <div class="mybtn2">Playstation</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">CoD Warzone</div>
+                        <img src="~/images/banners/codwarzone.jpg" alt="">
+                        <div class="mybtn2">Playstation</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">CoD Mobile</div>
+                        <img src="~/images/banners/codmobile.jpg" alt="">
+                        <div class="mybtn2">Mobile</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">CS:GO</div>
+                        <img src="~/images/banners/csgo.jpg" alt="">
+                        <div class="mybtn2">PC</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">VALORANT</div>
+                        <img src="~/images/banners/valorant.jpg" alt="">
+                        <div class="mybtn2">PC</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">Zula</div>
+                        <img src="~/images/banners/zula.jpg" alt="">
+                        <div class="mybtn2">PC</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">MOBA</div>
+                        <img src="~/images/banners/moba.jpg" alt="">
+                        <div class="mybtn2">PC</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">Rocket League</div>
+                        <img src="~/images/banners/rocketleague.jpg" alt="">
+                        <div class="mybtn2">Playstation</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">Kafa Topu 2</div>
+                        <img src="~/images/banners/kafatopu2.jpg" alt="">
+                        <div class="mybtn2">Mobile</div>
+                    </div>
+                </a>
+            </div><div class="col-lg-3 col-md-6 mb-2  mt-2">
+                <a href="#">
+                    <div class="single-game">
+                        <div class="mybtn3">Hearthstone</div>
+                        <img src="~/images/banners/hearthstone.jpg" alt="">
+                        <div class="mybtn2">Xbox</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+

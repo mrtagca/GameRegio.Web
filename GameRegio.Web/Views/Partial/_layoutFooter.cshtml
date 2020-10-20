@@ -1,0 +1,227 @@
+﻿<section class="footers bg-footer pt-5 pb-3 mt-5">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
+                <div class="footers-logo d-flex">
+                    <img src="/gameregio/images/regioLogos/sitelogo.png" style="width: 36px;">
+                    <img id="gameregio-logo-text" src="/gameregio/images/regioLogos/sitename-light.png">
+                </div>
+                <div class="footers-info mt-3">
+                    <p>gameRegio'nun sitede bulunan oyun firmaları ve bu firmalarla bağlantılı herhangi bir kurumla ilişiği bulunmamaktadır. gameRegio insanları bu oyunlar aracılığıyla buluşturan bir sistemdir.</p>
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
+                <ul class="list-unstyled">
+                    <li><a href="maintenance.html">Anasayfa</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="contact.html">Yardım & Destek</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
+                <ul class="list-unstyled">
+                    <li><a href="maintenance.html">Reklam ve İşbirliği</a></li>
+                    <li><a href="contact.html">Gizlilik Politikası</a></li>
+                    <li><a href="about.html">Kullanıcı Sözleşmesi</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 footers-four">
+                <div class="social-icons">
+                    <a href="#"><i id="social-fb" class="fab fa-facebook-f fa-2x social"></i></a>
+                    <a href="#"><i id="social-tw" class="fab fa-twitter fa-2x social"></i></a>
+                    <a href="#"><i id="social-in" class="fab fa-instagram fa-2x social"></i></a>
+                    <a href="#"><i id="social-yt" class="fab fa-youtube fa-2x social"></i></a>
+                    <a href="#"><i id="social-twi" class="fab fa-twitch fa-2x social"></i></a>
+                    <a href="#"><i id="social-di" class="fab fa-discord fa-2x social"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="copyright bg-footer">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12 pt-3">
+                <p class="text-muted">© 2020 gameRegio</p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--   Big container   -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 mx-auto my-0">
+                    <!--      Wizard container        -->
+                    <div class="wizard-container">
+                        <div class="card wizard-card" data-color="purple" id="wizard">
+                            <form action="" method="">
+                                <!--        You can switch " data-color="rose" "  with one of the next bright colors: "blue", "green", "orange", "purple"        -->
+
+                                <div class="wizard-header">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-10 col-half-offset">
+                                            <h3 class="wizard-title">
+                                                Düello Oluştur
+                                            </h3>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <button id="close-modal" class="close" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="wizard-navigation">
+                                    <ul>
+                                        <li><a href="#informations" data-toggle="tab">Bilgiler</a></li>
+                                        <li><a href="#opponent" data-toggle="tab">Rakip</a></li>
+                                        <li><a href="#rules" data-toggle="tab">Kurallar</a></li>
+                                        <li><a href="#result" data-toggle="tab">Sonuç</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="tab-content">
+                                    <div class="tab-pane" id="informations">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <h4 class="info-text"> Aşağıdaki bilgileri doldurarak düello bilgireni girebilirsin</h4>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">Ücret<small>(GR)</small></label>
+                                                    <input name="price" type="text" class="form-control" id="exampleInputEmail1" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">Platform</label>
+                                                    <select name="platform" class="form-control" required>
+                                                        <option disabled="" selected=""></option>
+                                                        <option value="PC"> PC </option>
+                                                        <option value="Mobil"> Mobil </option>
+                                                        <option value="PlayStation"> PlayStation </option>
+                                                        <option value="Xbox"> Xbox </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">Oyun</label>
+                                                    <select name="game" class="form-control" required>
+                                                        <option disabled="" selected=""></option>
+                                                        <option>FIFA</option>
+                                                        <option>PUBG Mobile </option>
+                                                        <option>CoD Warzone</option>
+                                                        <option>Hearthstone</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group label-floating" required>
+                                                    <label class="control-label">Mod</label>
+                                                    <select name="mode" class="form-control" required>
+                                                        <option disabled="" selected=""></option>
+                                                        <option>1v1 Birinci Şahıs</option>
+                                                        <option>1v1 Üçüncü Şahıs </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-12">
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">[[OYUN_ISMI]] Kullanıcı Adı (Eğer kullanıcı adı kayıtlı değilse çıkacak)</label>
+                                                    <input name="username" type="text" class="form-control" id="exampleInputEmail1" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="opponent">
+                                        <h4 class="info-text">Herkese açık bir düello seçebilir veya istediğiniz rakiple oynayabilirsiniz. </h4>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="optionsRadios" checked="true">
+                                                        Herkese açık. İsteyen katılabilsin.
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="optionsRadios">
+                                                        Kendi rakibimi kendim belirlerim.
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">Rakip Kullanıcı Adı (Eğer ikinci seçenek seçilirse çıkacak)</label>
+                                                    <input name="away" type="text" class="form-control" id="exampleInputEmail1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="rules">
+                                        <h4 class="info-text">Az kaldı. Şimdi kurallara göz atalım.</h4>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="duel-rules">
+                                                    <ul id="duel-create-list">
+                                                        <li>Düelloyu oluşturan oyuncu steam atölyesinden aim_map haritasını seçerek lobiyi oluşturur.</li>
+                                                        <li>Rakibini lobiye davet eder.</li>
+                                                        <li>Server'a bağlandıktan sonra her iki oyuncu demo kaydı başlatır. (record demoismi)</li>
+                                                        <li>İki oyuncu da hazır olduğunda lobiyi oluşturan kişi 1v1 config dosyasını aktif hale getirir. (exec 1v1)</li>
+                                                        <li>16 Round kazanan düelloyu kazanır.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="result">
+                                        <h4 class="info-text"> Her şey hazır. Düello oluştur butonuna tıkla</h4>
+                                        <div class="row">
+                                            <div class="col-sm-12 mb-2">
+                                                <h4>Giriş Ücreti</h4>
+                                                <span>50 GR</span>
+                                            </div>
+                                            <div class="col-sm-12 mb-2">
+                                                <h4>Platform</h4>
+                                                <span>Mobil</span>
+                                            </div>
+                                            <div class="col-sm-12 mb-2">
+                                                <h4>Oyun</h4>
+                                                <span>PUBG Mobil</span>
+                                            </div>
+                                            <div class="col-sm-12 mb-2">
+                                                <h4>Mod</h4>
+                                                <span>1v1 Birinci Şahıs</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wizard-footer">
+                                    <div class="pull-right">
+                                        <input type='button' class='btn btn-next btn-fill btn-primary btn-wd' name='next' value='İleri' />
+                                        <input type='button' class='btn btn-finish btn-fill btn-primary btn-wd' name='finish' value='Başlat' />
+                                    </div>
+                                    <div class="pull-left">
+                                        <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Geri' />
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- wizard container -->
+                </div>
+            </div>
+            <!-- row -->
+        </div>
+        <!--  big container -->
+    </div>
+</div>
+  </div>
+</div>
