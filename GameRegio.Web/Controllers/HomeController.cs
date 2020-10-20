@@ -10,6 +10,7 @@ namespace GameRegio.Web.Controllers
     {
         public IActionResult Index()
         {
+            string a = "";
             return View();
         }
     }
